@@ -1,0 +1,7 @@
+brands = Brand.query.all()
+a_brand = brands[5]
+print a_brand.models[0].year
+
+models = Model.query.all()
+a_model = models[5]
+print a_model.brand.headquarters
